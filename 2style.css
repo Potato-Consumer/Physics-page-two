@@ -1,0 +1,46 @@
+
+/* Css code for the sign up page */
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('Physics-Background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "jost", sans-serif
+}
+p {
+  color:#5595a5;
+}
+h2 {
+  color: #b8e8f4;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 40px;
+}
+.signup-form {
+  width: 520px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #000000;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.signup-form input[type='text'],
+.signup-form input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #a179b4;
+}
+
+.signup-form input[type='submit']{
+  width: 100px;
+}
