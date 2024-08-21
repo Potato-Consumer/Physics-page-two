@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link href="../Css/WelcomeStyle.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class='navigation'>
+    <div class='menuToggle'></div>
+    <ul>
+      <li>
+        <a href="../Html-Folder/Welcome.html"">
+          <span class="icon"><i class="fa-solid fa-house"></i></span>
+          <span class="title">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="../Html-Folder/torque-Page.html">
+          <span class="icon"><i class="fa-solid fa-wrench"></i></span>
+          <span class="title">Torque</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa-solid fa-file"></i></span>
+          <span class="title">Page 2</span>
+        </a>
+      </li>
+      <li>
+        <a href="../index.html">
+          <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+          <span class="title">Logout</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="wrapper">
+  <h1>The torque page</h1>
+    <br>
+    <br>
+    <p class='paragraph'> Have you ever tried turning a bolt with a wrench and discovered that it's easier to push down when you are further away from the bolt? Well thats called torque!</p>
+  </div>
+
+
+
+  <script>
+    let navigation = document.querySelector('.navigation');
+    document.querySelector('.menuToggle').onclick = function(){
+      this.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+  </script>
+
+  <script  src="../JS/weclomeScript.js"></script>
+</body>
+
+</html>

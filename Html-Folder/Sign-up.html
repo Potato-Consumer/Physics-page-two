@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign Up</title>
+  <link href="../Css/2style.css" rel="stylesheet" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class='signup-form'>
+    <h2>Sign Up</h2>
+    <p>Fill in the form to sign up. Username must be less than 12 characters</p>
+    <form id="signupForm">
+      <input type="text"  maxlength="12" id="username" name="fullname" placeholder="Username" required>
+      <p id='userTaken'>Username is taken</p>
+      <input type="password" id="password" name="Password" placeholder="Password" required>
+      <input type="submit" value="Sign Up">
+      <p>Already have an account? <a href='../index.html'>login here</a> </p>
+    </form>
+  </div>
+  <script src="../JS/2script.js"defer></script>
+</body>
+
+</html>
