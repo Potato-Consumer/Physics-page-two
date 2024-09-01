@@ -68,13 +68,13 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: white;
+  background: #ffffff;
   transition: 0.5s;
   cursor: pointer;
   z-index: 99;
 }
 .navigation .menuToggle.active {
-  background: #8adcff;
+  background: #d63d3d;
 }
 .navigation .menuToggle::before {
   content: '+';
@@ -107,7 +107,7 @@ body {
 }
 
 .navigation ul li:hover {
-  background:  #95d0e9;
+  background:  #e13737;
 }
 
  .navigation ul li a {
@@ -115,7 +115,7 @@ body {
    display: flex;
    width: 100%;
    text-decoration: none;
-   color: #4a8aa5;;
+   color: #766f71;
  }
 
  .navigation ul li a .icon {

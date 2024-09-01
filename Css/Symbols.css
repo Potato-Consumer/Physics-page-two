@@ -115,7 +115,7 @@ body {
    display: flex;
    width: 100%;
    text-decoration: none;
-   color: #766f71;;
+   color: #766f71;
  }
 
  .navigation ul li a .icon {
@@ -143,6 +143,6 @@ body {
  }
 
 .paragraph {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
